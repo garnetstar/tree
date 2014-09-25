@@ -1,5 +1,7 @@
 <?php
 namespace Garnetstar\Tree\DI;
+use Nette\Configurator;
+use Nette\DI\Compiler;
 
 /**
  * Created by PhpStorm.
@@ -12,7 +14,7 @@ class TreeExtension extends \Nette\DI\CompilerExtension
 	/**
 	 * @param \Nette\Configurator $configurator
 	 */
-	public static function register(Nette\Configurator $configurator)
+	public static function register(Configurator $configurator)
 	{
 		$configurator->onCompile[] = function ($config, Compiler $compiler)
 		{
