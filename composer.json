@@ -4,5 +4,10 @@
     "require": {
         "nette/nette": "2.3.*@dev",
         "kdyby/console": "2.3.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Garnetstar\\Tree\\": "src/"
+        }
     }
 }
