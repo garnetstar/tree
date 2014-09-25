@@ -1,5 +1,5 @@
 <?php
-namespace Garntestar\Tree\DI;
+namespace Garnetstar\Tree\DI;
 
 /**
  * Created by PhpStorm.
