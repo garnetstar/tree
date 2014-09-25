@@ -1,5 +1,6 @@
 {
-    "name" : "garnetstar/tree",
+    "name": "garnetstar/tree",
+    "description": "testing version",
     "require": {
         "nette/nette": "2.3.*@dev",
         "kdyby/console": "2.3.*@dev"
