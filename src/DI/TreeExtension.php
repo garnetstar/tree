@@ -8,6 +8,9 @@
  */
 class TreeExtension extends \Nette\DI\CompilerExtension
 {
+	/**
+	 * @param \Nette\Configurator $configurator
+	 */
 	public static function register(Nette\Configurator $configurator)
 	{
 		$configurator->onCompile[] = function ($config, Compiler $compiler)
